@@ -121,6 +121,8 @@ Before you begin, make sure you have the following installed:
 
    ```shell
    git clone https://github.com/yourusername/quizApp_backend.git
+   
+
 2. Configure application.properties:
    ```shell
      # configure according to your requirement 
@@ -136,6 +138,8 @@ Before you begin, make sure you have the following installed:
      spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
      spring.servlet.multipart.max-file-size=10MB
      spring.servlet.multipart.max-request-size=10MB
+   
+
 3. Configure Cloudinary Configuration
    ```shell
      config.put("cloud_name","");
