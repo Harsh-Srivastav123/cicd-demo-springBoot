@@ -30,7 +30,7 @@ jobs:
       run:  sudo docker image rm demo|| true
 
     - name: Build the Docker image
-      run: sudo docker build -t demo.
+      run: sudo docker build -t demo .
       
    
     - name: Run docker image
